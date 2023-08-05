@@ -37,28 +37,19 @@ Create and start the client application
 5) Create and run the server application
 6) Create and run the client application
 
-For running this rmi example,  
+For running this rmi example:
   
-1) compile all the java files  
-  
-javac *.java  
-  
-2)create stub and skeleton object by rmic tool  
-  
-rmic AdderRemote  
-  
-3)start rmi registry in one command prompt  
-  
-rmiregistry 5000  
-  
-4)start the server in another command prompt  
-  
-java MyServer  
-  
-5)start the client application in another command prompt  
-  
-java MyClient  
+1) compile all the java files  (javac *.java)
+ 
+2)create stub and skeleton object by rmic tool  (rmic AdderRemote )
+   
+3)start rmi registry in one command prompt  (rmiregistry 5000)
+   
+4)start the server in another command prompt ( java MyServer  )
 
+ 
+5)start the client application in another command prompt  (java MyClient )
+  
 *for connecting to server we must have the address that we can find it in more app such as netstat -a
 
 We explain how to make RMI application with java that get number and count them over stack
